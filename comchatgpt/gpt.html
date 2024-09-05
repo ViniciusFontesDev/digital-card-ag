@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Digital - Corretora de Seguros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #005b99;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .card-header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 3px solid #005b99;
+        }
+
+        .card-body h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #005b99;
+        }
+
+        .card-body p {
+            color: #666;
+            margin: 5px 0 15px;
+            font-size: 14px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .service-icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .contact-info {
+            margin: 15px 0;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .contact-info a {
+            color: #005b99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            margin: 15px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #005b99;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            background-color: #005b99;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+
+        .qr-code {
+            margin-top: 20px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <h1>Seguros XYZ</h1>
+            <p>"Segurança e Confiança em Primeiro Lugar"</p>
+        </div>
+
+        <div class="card-body">
+            <img src="https://via.placeholder.com/100" alt="Foto do Corretor" class="profile-image">
+            <h2>João Silva</h2>
+            <p>Corretor de Seguros Especialista</p>
+
+            <div class="services">
+                <img src="https://via.placeholder.com/50" alt="Seguro de Automóvel" class="service-icon">
+                <img src="https://via.placeholder.com/50" alt="Seguro Residencial" class="service-icon">
+                <img src="https://via.placeholder.com/50" alt="Seguro de Vida" class="service-icon">
+            </div>
+
+            <div class="contact-info">
+                <p>📞 <a href="tel:+5521999999999">+55 21 99999-9999</a></p>
+                <p>📧 <a href="mailto:joao.silva@segurosxyz.com">joao.silva@segurosxyz.com</a></p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#">🔗 LinkedIn</a>
+                <a href="#">📸 Instagram</a>
+                <a href="#">📘 Facebook</a>
+            </div>
+
+            <button class="cta-button">Peça sua Cotação!</button>
+
+            <img src="https://via.placeholder.com/100" alt="QR Code para Cotação" class="qr-code">
+        </div>
+    </div>
+
+</body>
+</html>
