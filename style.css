@@ -16,6 +16,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 body{
     background: url(imagens/nice.pdf.webp) no-repeat center center;
     background-size: cover;
