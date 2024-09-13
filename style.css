@@ -8,6 +8,7 @@
     --cor04: #6B9080; 
     --branco: #FFF;
     --preto: #000;
+    --azul: #0d3b66d4;
 }
 
 *{
@@ -16,18 +17,35 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
 
 body{
     background: url(imagens/nice.pdf.webp) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    overflow: hidden;
 }
 
+.promocao{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    width: 100vw;
+    margin: auto;
+
+    background-color: #0d3b66d4;
+
+    user-select: none;
+}
+
+.promocao img{
+    width: 200px;
+    height: 200px;
+
+
+    margin: 10px;
+    opacity: 0.9;
+}
 
 main{
     display: flex;
@@ -183,5 +201,29 @@ footer{
         height: 200px;
         object-fit: cover;
         border-radius: 50%;
+    }
+
+    .promocao{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        padding-top: 20px;
+        width: 500px;
+        margin: auto;
+    
+        background-color: #0d3b66d4;
+    
+        user-select: none;
+    }
+
+    .promocao img{
+        margin: 10px;
+        opacity: 0.9;
+        transition: all ease-in-out .5s;
+    }
+
+    .promocao img:hover{
+        opacity: 1;
+        transition: opacity .1s;
     }
 }
