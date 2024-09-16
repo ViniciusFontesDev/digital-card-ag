@@ -21,7 +21,7 @@
 body{
     background: url(imagens/nice.pdf.webp) no-repeat center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -62,23 +62,24 @@ main{
     user-select: none;
 }
 
+.arruma{
+    height: 400px;
+}
+
 .img{
     width: 220px;
-    height: 420px;
+    height: 220px;
     overflow: hidden;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background: url(imagens/aguimar.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+
     border-radius: 50%;
     border: 3px solid var(--cor02);
 }
 
 img{
-    width: 273px;
-    height: 373px;
-    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -183,17 +184,21 @@ footer{
         color: var(--branco);
     }
 
+    .arruma{
+        height: 400px;
+    }
+    
     .img{
-        width: 161px;
-        height: 161px;
+        width: 200px;
+        height: 200px;
         overflow: hidden;
         
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        box-sizing: content-box;
+        background: url(imagens/aguimar.png) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll;
+    
         border-radius: 50%;
+        border: 3px solid var(--cor02);
     }
     
     img{
