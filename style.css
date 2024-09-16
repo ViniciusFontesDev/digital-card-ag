@@ -19,7 +19,7 @@
 
 
 body{
-    background: url(imagens/nice.pdf.webp) no-repeat center center;
+    background: url(imagens/nice.pdf.webp) no-repeat top center;
     background-size: cover;
     background-attachment: scroll;
     height: 100vh;
@@ -164,9 +164,16 @@ footer{
     right: 0;
     margin: 0px 20px 10px 0px;
     color: var(--branco);
+    padding-bottom: 20px;
 }
 
+footer > p{
+    margin-bottom: 10px;
+}
 
+.opf{
+    margin-top: 20px;
+}
 
 
 @media (min-width: 499px) {
@@ -230,5 +237,12 @@ footer{
     .promocao img:hover{
         opacity: 1;
         transition: opacity .1s;
+    }
+
+    body{
+        background: url(imagens/nice.pdf.webp) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
     }
 }
